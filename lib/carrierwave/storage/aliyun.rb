@@ -1,4 +1,4 @@
-require 'aliyun/oss'
+require 'aliyun/oss_dup'
 require 'carrierwave'
 require 'uri'
 
