@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Jason Lee']
   s.email       = ['huacnlee@gmail.com']
-  s.homepage    = 'https://github.com/huacnlee/carrierwave-aliyun'
+  s.homepage    = 'https://github.com/HEYFH/carrierwave-aliyun'
   s.summary     = 'Aliyun OSS support for Carrierwave'
   s.description = 'Aliyun OSS support for Carrierwave'
   s.files         = Dir.glob('lib/**/*.rb') + %w(README.md CHANGELOG.md)
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.license       = 'MIT'
 
   s.add_dependency 'carrierwave', ['>= 0.5.7']
-  s.add_dependency 'aliyun-oss-sdk', ['>= 0.1.6']
+  # s.add_dependency 'aliyun-oss-sdk', ['>= 0.1.6']
 
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'activerecord'
